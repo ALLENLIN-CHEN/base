@@ -16,8 +16,8 @@ import java.util.*;
 public class IndustryServiceImpl implements IndustryService {
 
     @Autowired
-//    private IndustryMapper industryMapper;
-    private IndustryMapperKylin industryMapper;
+    private IndustryMapper industryMapper;
+//    private IndustryMapperKylin industryMapper;
 
     private DecimalFormat df   = new DecimalFormat("######0.00");
 
